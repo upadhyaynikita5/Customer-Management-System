@@ -1,0 +1,402 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1cc9e81;
+}
+
+nav {
+    background-color: #805b46;
+    color: #fff;
+    padding: 1rem 4rem;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #000000;
+}
+
+li.login {
+    float: right;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+/* Header title specific styling */
+#header-title {
+    color: #805b46;
+    font-size: 3em;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 10px; /* Add margin-bottom for space */
+}
+
+/* Header description specific styling */
+#header-description {   
+    color: rgb(80, 37, 37);
+    text-shadow: 2px 2px 4px #805b46(255, 255, 255, 0.5);
+    width: 43%;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 0 5px;
+    border-radius: 0;
+    margin-bottom: 20px; /* Add margin-bottom for more space */
+}
+
+/* Add this in your CSS file */
+.about-button {
+    display: inline-block;
+    background-color: #501f1fe7;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.about-button:hover {
+    filter: brightness(105%);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* Adjust the color and opacity as needed */
+
+
+.pt1{
+    padding-top: 1rem;
+}
+
+.pb1{
+    padding-bottom: 1rem;
+}
+
+.me{
+    margin-right: 1rem;
+}
+
+.forms input{
+    height: 2rem;
+    width: 18rem;
+    border: 1px solid rgb(182, 170, 170);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.forms label{
+    width: 3px;
+}
+
+.btnRed{
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border: 1px solid rgb(182, 170, 170);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnGreen{
+    background-color: #57ca29;
+    padding: 10px 20px;
+    border: 1px solid rgb(182, 170, 170);
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.btnWhite{
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid rgb(182, 170, 170);
+    border-radius: 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+.btnDark{
+    background-color: #333;
+    padding: 10px 20px;
+    border: 1px solid rgb(182, 170, 170);
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnBlue{
+    background-color: #805b46;
+    padding: 10px 20px;
+    border: 1px solid rgb(182, 170, 170);
+    border-radius: 10px;
+    color: white;
+}
+
+.btnBlue:hover{
+    background-color: #333;
+    border:  1px solid #805b46;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.orderForm, .loginForm, .additemsform{
+    padding: 0px 40px;
+    border-radius: 10px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+/* about us */
+
+
+/* About content specific styling */
+.about-content {
+    text-align: center; /* Center-align text within the about content */
+}
+
+.about-content h2,
+.about-content p {
+    display: flex; /* Use flexbox for the header and paragraph layout */
+    align-items: center; /* Center items along the cross-axis */
+    justify-content: center; /* Center items along the main axis */
+    width: 90%; /* Set width to 90% */
+    color: #000000; /* Set text color to black */
+    margin: 0 auto; /* Center horizontally by adding margin */
+}
+
+/* Header title specific styling */
+.about-content h2 {
+    display: flex; /* Use flexbox for the header title layout */
+    align-items: center; /* Center items along the cross-axis */
+    justify-content: center; /* Center items along the main axis */
+    font-size: 2em; /* Set font size */
+    font-family: Georgia, serif; /* Set font family */
+    font-weight: bold; /* Set font weight to bold */
+    line-height: 1; /* Set line height */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    margin: 0 auto; /* Center horizontally by adding margin */
+    margin-bottom: 10px; /* Add margin-bottom for space */
+}
+
+/* Header description specific styling */
+.about-content p {
+    font-size: 1.2em; /* Set font size */
+    font-family: Georgia, serif; /* Set font family */
+    line-height: 1.6; /* Set line height */
+    margin-top: 20px; /* Add margin-top for space */
+    background-color: transparent; /* Set background color to transparent */
+    padding: 0 5px; /* Add padding to the sides */
+    border-radius: 0; /* Reset border-radius */
+    margin-bottom: 20px;
+}
+
+.about-image {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio for images */
+    margin-bottom: 20px; /* Add margin-bottom for space */
+}
+
+/* Contact links styles */
+.contact-links {
+    display: flex; /* Use flexbox for the contact links layout */
+    justify-content: center; /* Add space between links */
+    margin-top: 20px; /* Add margin-top for space */
+}
+
+.contact-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color */
+    border: 1px solid #333; /* Add border */
+    padding: 8px 16px; /* Add padding */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    transition: background-color 0.3s ease; /* Add transition effect */
+    margin-right: 10px; /* Add margin to create space between links */
+}
+
+.contact-links a:last-child {
+    margin-right: 0; /* Remove margin for the last link */
+}
+
+.contact-links a:hover {
+    background-color: #333; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+
+
+/* about us */
+
+/* login */
+.newAccount{
+    text-align: center;
+}
+
+.newAccount a{
+    color: black;
+}
+
+.newAccount a:hover{
+    color: #333;
+}
+
+/* table */
+
+.text-wrap{
+    text-wrap: nowrap;
+}
+
+table, table td, table th, table tr{
+    border: none;
+    text-align: center;
+}
+
+table{
+    padding: 1rem;
+    background-color: #c5c5c5; 
+    border-radius: 10px;
+}
+
+table td, table th{
+    padding: 0.5rem 1rem;
+}
+
+table tr:hover{
+    background-color: #ddd;
+}
+
+.admintable{
+    display: flex;
+    justify-content: center;
+}
+
+.actionbtns{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+
+  
+@media screen and (max-width: 600px) {
+
+
+    table, table td, table th, table tr{
+        text-wrap:balance;
+    }
+
+    table {
+        background-color: white;      
+        border: 0;
+    }
+
+    .orders-table .table-head {
+        display: none;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        padding-right: 10px;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        font-size: 12px;
+        border-radius: 10px;
+        display: block;
+        background-color: #c5c5c5; 
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    table td {
+        border: none;
+        display: block;
+        text-align: right;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        display: block;
+        border-bottom: 0;
+    }
+
+    .actionbtns{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10rem;
+    }
+
+    .me{
+        margin-right: 0;
+    }
+}
+
+/* footer */
+footer{
+    background-color:#805b46;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 1rem 4rem;
+}
+
